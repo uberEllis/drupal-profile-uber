@@ -1,0 +1,78 @@
+; $Id$
+name = über Drupal Base
+description = Install the base framework and modules for überEllis.com external facing platforms and sites.
+version = VERSION
+core = 7.x
+
+; Drupal Core dependencies
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Contrib dependencies
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+
+dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = context
+; Context UI doesn't like being installed this way.. will probably have to use an enable hook or something
+; dependencies[] = context_ui
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = email
+dependencies[] = field_group
+dependencies[] = googleanalytics
+dependencies[] = jasm
+dependencies[] = jquery_ui
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = markdown
+dependencies[] = menu_attributes
+dependencies[] = entityreference
+dependencies[] = pathologic
+dependencies[] = mailsystem
+dependencies[] = file_entity
+dependencies[] = auto_nodetitle
+dependencies[] = echo
+dependencies[] = entity
+dependencies[] = entityform
+dependencies[] = entity_token
+dependencies[] = include
+dependencies[] = masquerade
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = panels
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_php
+dependencies[] = views_ui
+dependencies[] = weight
+
+files[] = uber.profile
